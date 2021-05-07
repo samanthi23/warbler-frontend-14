@@ -46,6 +46,7 @@ class AuthForm extends Component {
                 type="password"
                 value={password}
               />
+              {/* signup form below */}
               {signUp && (
                 <div>
                   <label htmlFor="username">Username</label>
